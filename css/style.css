@@ -261,7 +261,7 @@ li:not(:first-child) {
 	width: 1110px;
 	height: 457px;
 	margin: 1195px 405px 2785px 405px;
-	background: grey;
+	/*background: grey;*/
 }
 .article_title {
 	position: inherit;
@@ -275,7 +275,7 @@ li:not(:first-child) {
 	letter-spacing: 0.08em;
 	text-transform: uppercase;
 	color: #FFFFFF;
-	background: red;
+	/*background: red;*/
 	margin: 0 466px 392px 467px;
 }
 span {
@@ -290,12 +290,12 @@ span {
 	font-family: 'open_sanscondensed_light';
 	width: 1110px;
 	height: 292px;
-	background: purple;
+	/*background: purple;*/
 }
 .article_info {
 	width: 445px;
 	height: 273px;
-	background: blue;
+	/*background: blue;*/
 }
 .info1 {
 	font-weight: 700;
@@ -322,11 +322,12 @@ span {
 	/*position: inherit;*/
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 	font-family: 'OpenSans_Condensed-Medium';
 	font-weight: 700;
 	width: 255px;
 	height: 292px;
-	background: yellow;
+	/*background: aqua;*/
 }
 .article_digits div {
 	font-size: 21px;
@@ -344,4 +345,29 @@ span {
 	/*position: inherit;*/
 	width: 350px;
 	height: 292px;
+}
+
+/*НАШИ ПОСТАНОВКИ*/
+.performance {
+	font-family: 'open_sanscondensed_light';
+	position: absolute;
+	width: 1770px;
+	height: 715px;
+	margin: 1802px 0 1920px 150px;
+	background: grey;
+}
+.article_perform {
+	font-weight: 300;
+	font-size: 48px;
+	line-height: 65px;
+	text-align: center;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+	margin: 0 761px 650px 611px;
+}
+.perform_wrapper {
+	position: inherit;
+	width: 1769px;
+	height: 550px;
+	background: aqua;
 }
