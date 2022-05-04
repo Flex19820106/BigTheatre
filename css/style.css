@@ -1,0 +1,347 @@
+body {
+	background-color: #333333;
+}
+.wrapper {
+	margin: 0 auto;
+	width: 1920px;
+	height: 4437px;
+}
+.head_wrapper {
+	display: block;
+	position: absolute;
+	width: 1920px;
+	height: 1045px;
+	background-image: url(../img/background_header.png);
+}
+
+/*MENU*/
+.menu_wrapper {
+	font-family: 'open_sanscondensed_light';
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	top: 50px;
+	margin: 0 auto;
+	width: 1110px;
+	height: 27px;
+	/*background-color: black;*/
+}
+.menu {
+	/*width: 1000px;*/
+	/*background-color: red;*/
+}
+ul {
+	font-style: normal;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: 0.1em;
+	display: inline-flex;
+	list-style: none;
+	/*background-color: pink;*/
+}
+li:not(:first-child) {
+	margin-left: 63px;
+}
+.menu_tel {
+	vertical-align: center;
+	padding-left: 167px;
+	position: relative;
+	width: 119px;
+}
+.menu_tel p {
+	padding: 0 3px 0 3px;
+	font-size: 16px;
+	line-height: 22px;
+	letter-spacing: 0.05em;
+	/*background-color: green;*/
+}
+.line_header {
+	border: 1px solid #D1A954;
+}
+
+/*Sticky sidebar*/
+.sticky_sidebar {
+	top: 0;
+	width: 150px;
+	height: 1045px;
+	background: rgba(51, 51, 51, 0.75);
+	position: absolute;
+}
+.information {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 25px;
+	height: 579px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	/*background-color: green;*/
+	margin: 383px 60px 86px 62px;
+}
+.text_inform {
+	position: relative;
+	height: 242px;
+	width: 25px;
+	line-height: 25px;
+	/*background-color: black;*/
+}
+.text_inform p {
+	writing-mode: vertical-rl;
+	text-align: center;
+	font-family: 'OpenSans_Condensed-Medium';
+	font-size: 18px;
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-weight: 700;
+	color: #C4C4C4;
+	transform: rotate(-180deg);
+}
+.vertical_line {
+	position: relative;
+	width: 0;
+	height: 77px;
+	border: 2px solid #C4C4C4;
+	/*background-color: yellow;*/
+}
+.soc_icons {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	width: 25px;
+	height: 174px;
+	/*background-color: pink;*/
+}
+#inst {
+	height: 26px;
+	width: 26px;
+}
+#fb {
+	height: 26px;
+	width: 15px;
+}
+#vk {
+	height: 14px;
+	width: 26px;
+}
+#ytube {
+	height: 18px;
+	width: 26px;
+}
+
+/*BOARD1*/
+.board1 {
+	position: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/*align-items: ;*/
+	width: 540px;
+	height: 296px;
+	top: 0;
+	/*background-color: yellow;*/
+	margin: 384px 975px 365px 405px;
+}
+.paragraph {
+	font-family: 'OpenSans-CondBold';
+	width: 540px;
+	height: 68px;
+	font-weight: 700;
+	font-size: 64px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	line-height: 87px;
+	color: #FFFFFF;;
+	/*background: pink;*/
+}
+.article {
+	font-family: 'OpenSans-Regular';
+	width: 540px;
+	height: 79px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+	color: #FFFFFF;
+	/*background: brown;*/
+}
+.button {
+	font-family: 'open_sanscondensed_light';
+	border: none;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+	width: 160px;
+	height: 50px;
+	text-transform: uppercase;
+	background: #D1A954;
+}
+.button:hover {
+	background: #D1A980;
+}
+
+/*BOARD2*/
+.board2 {
+	width: 370px;
+	height: 570px;
+  /*background-color: green;*/
+	position: inherit;
+	top: 0;
+	margin: 267px 480px 208px 1070px;
+}
+.poster1 {
+	position: inherit;
+	z-index: 1;
+}
+.poster2 {
+	position: inherit;
+	top: 20px;
+	left: 20px;
+}
+
+.arrow_conteiner {
+	top: 545px;
+	height: 25px;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-family: 'OpenSans_Condensed-Medium';
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: 0.1em;
+	color: #C4C4C4;
+	text-transform: uppercase;
+}
+.left {
+	display: flex;
+	justify-content: space-between;
+	width: 108px;
+	height: 25px;
+	position: inherit;
+	/*background: black;*/
+}
+.left img {
+	width: 41px;
+	height: 16px;
+}
+.right {
+	display: flex;
+	justify-content: space-between;
+	width: 108px;
+	height: 25px;
+	position: inherit;
+	/*background: pink;*/
+}
+.right img {;
+	width: 41px;
+	height: 16px;
+}
+.right p {
+	color: #FFFFFF;
+}
+
+/*ARTICLE*/
+.about_theatre {
+	position: absolute;
+	display: block;
+	width: 1110px;
+	height: 457px;
+	margin: 1195px 405px 2785px 405px;
+	background: grey;
+}
+.article_title {
+	position: inherit;
+	width: 177px;
+	height: 65px;
+	text-align: center;
+	font-family: 'open_sanscondensed_light';
+	font-weight: 300;
+	font-size: 48px;
+	line-height: 65px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	background: red;
+	margin: 0 466px 392px 467px;
+}
+span {
+	color: #D1A954;
+}
+.article_main_info {
+	position: inherit;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 165px;
+	font-family: 'open_sanscondensed_light';
+	width: 1110px;
+	height: 292px;
+	background: purple;
+}
+.article_info {
+	width: 445px;
+	height: 273px;
+	background: blue;
+}
+.info1 {
+	font-weight: 700;
+	font-size: 21px;
+	line-height: 29px;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+	width: 445px;
+	height: 23px;
+	text-transform: uppercase;
+}
+.info2 {
+	margin-top: 40px;
+	font-family: 'OpenSans-Regular';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 150%;
+	color: #FFFFFF;
+	width: 445px;
+	height: 210px;
+}
+
+.article_digits {
+	/*position: inherit;*/
+	display: flex;
+	flex-direction: column;
+	font-family: 'OpenSans_Condensed-Medium';
+	font-weight: 700;
+	width: 255px;
+	height: 292px;
+	background: yellow;
+}
+.article_digits div {
+	font-size: 21px;
+	line-height: 29px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.article_digits .text {
+	font-size: 16px;
+	line-height: 22px;
+	letter-spacing: 0.05em;
+}
+.article_pic {
+	/*position: inherit;*/
+	width: 350px;
+	height: 292px;
+}

@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'open_sanscondensed_light';
+    src: url(fonts/OpenSans-CondLight.ttf);
+    /*font-weight: normal;
+    font-style: normal;*/
+}
+@font-face {
+    font-family: 'OpenSans-CondBold';
+    src: url(fonts/OpenSans-CondBold.ttf);
+}
+@font-face {
+    font-family: 'OpenSans_Condensed-Medium';
+    src: url(fonts/OpenSans_Condensed-Medium.ttf);
+}
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url(fonts/OpenSans-Regular.ttf);
+}
