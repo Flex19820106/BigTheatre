@@ -3,6 +3,8 @@ body {
 }
 .wrapper {
 	margin: 0 auto;
+	max-width: 1920px;
+	min-width: 1920px;
 	width: 1920px;
 	height: 4437px;
 }
@@ -483,7 +485,7 @@ button.search:hover {
 	font-size: 48px;
 	line-height: 65px;
 	text-align: center;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.09em;
 	text-transform: uppercase;
 	color: #FFFFFF;
 	background: grey;
@@ -493,11 +495,13 @@ button.search:hover {
 	height: 437px;
 	background: pink;
 }
-.partners_paragraph {
+#partners_paragraph {
 	width: 358px;
 	height: 65px;
+	margin: 0 338px 372px 338px;
 }
-.partners_logo {
+#partners_logo {
+	position: inherit;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -505,7 +509,7 @@ button.search:hover {
 	height: 96px;
 	background: green;
 }
-.partners_log div {
+#partners_logo #logo {
 	width: 200px;
 	height: 96px;
 }
