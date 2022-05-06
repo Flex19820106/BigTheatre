@@ -477,6 +477,7 @@ button.search:hover {
 
 /*ПОСЛЕДНИЙ АРТИКЛ*/
 .last_article_wrapper {
+	position: relative;
 	width: 1110px;
 	height: 912px;
 	margin: 3367px 405px 158px 405px;
@@ -491,6 +492,8 @@ button.search:hover {
 	background: grey;
 }
 .partners {
+	position: relative;
+	margin: 0 auto;
 	width: 1034px;
 	height: 437px;
 	background: pink;
@@ -500,8 +503,18 @@ button.search:hover {
 	height: 65px;
 	margin: 0 338px 372px 338px;
 }
+.partners_complete_logo {
+	position: absolute;
+	width: 1034px;
+	height: 272px;
+	margin: auto auto 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background: blue;
+}
 #partners_logo {
-	position: inherit;
+	/*position: inherit;*/
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -509,14 +522,44 @@ button.search:hover {
 	height: 96px;
 	background: green;
 }
-#partners_logo #logo {
+#partners_logo #logo img {
 	width: 200px;
 	height: 96px;
 }
-
-
 .contacts {
+	position: absolute;
 	width: 1110px;
 	height: 355px;
+	margin: auto auto 0 auto;
+	font-family: 'open_sanscondensed_light';
+	color: #FFFFFF;
+	text-transform: uppercase;
+	background: red;
+}
+.contacts_paragraph {
+	width: 381px;
+	height: 65px;
+	margin: 0 auto;
+	font-weight: 300;
+	font-size: 48px;
+	line-height: 65px;
+	text-align: center;
+	letter-spacing: 0.09em;
 	background: aquamarine;
+}
+.contacts_phone_email {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: left;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 22px;
+	letter-spacing: 0.05em;
+	width: 255px;
+	height: 143px;
+}
+.contacts_form {
+	width: 730px;
+	height: 190px;
 }
