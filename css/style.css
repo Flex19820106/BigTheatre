@@ -15,6 +15,27 @@ body {
 	height: 1045px;
 	background-image: url(../img/background_header.png);
 }
+/*TOTAL STYLES*/
+.paragraph_title {
+	font-family: 'open_sanscondensed_light';
+	font-weight: 300;
+	font-size: 48px;
+	line-height: 65px;
+	text-align: center;
+	color: #FFFFFF;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+.flex_column_space-between {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.flex_row_space-between {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;	
+}
 
 /*MENU*/
 .menu_wrapper {
@@ -22,9 +43,6 @@ body {
 	color: #FFFFFF;
 	text-transform: uppercase;
 	font-weight: 700;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
 	align-items: center;
 	position: relative;
 	top: 50px;
@@ -75,17 +93,9 @@ li:not(:first-child) {
 }
 .information {
 	position: absolute;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
 	align-items: center;
 	width: 25px;
 	height: 579px;
-	/*top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;*/
-	/*background-color: green;*/
 	margin: 383px 60px 86px 62px;
 }
 .text_inform {
@@ -115,9 +125,6 @@ li:not(:first-child) {
 	/*background-color: yellow;*/
 }
 .soc_icons {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
 	align-items: center;
 	position: relative;
 	width: 25px;
@@ -144,13 +151,8 @@ li:not(:first-child) {
 /*BOARD1*/
 .board1 {
 	position: inherit;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	/*align-items: ;*/
 	width: 540px;
 	height: 296px;
-	/*top: 0;*/
 	/*background-color: yellow;*/
 	margin: 384px 975px 365px 405px;
 }
@@ -216,9 +218,6 @@ li:not(:first-child) {
 	top: 545px;
 	height: 25px;
 	position: relative;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
 	font-family: 'OpenSans_Condensed-Medium';
 	font-weight: 700;
 	font-size: 18px;
@@ -228,8 +227,6 @@ li:not(:first-child) {
 	text-transform: uppercase;
 }
 .left {
-	display: flex;
-	justify-content: space-between;
 	width: 108px;
 	height: 25px;
 	position: inherit;
@@ -240,8 +237,6 @@ li:not(:first-child) {
 	height: 16px;
 }
 .right {
-	display: flex;
-	justify-content: space-between;
 	width: 108px;
 	height: 25px;
 	position: inherit;
@@ -268,14 +263,6 @@ li:not(:first-child) {
 	position: inherit;
 	width: 177px;
 	height: 65px;
-	text-align: center;
-	font-family: 'open_sanscondensed_light';
-	font-weight: 300;
-	font-size: 48px;
-	line-height: 65px;
-	letter-spacing: 0.08em;
-	text-transform: uppercase;
-	color: #FFFFFF;
 	/*background: red;*/
 	margin: 0 466px 392px 467px;
 }
@@ -284,9 +271,6 @@ span {
 }
 .article_main_info {
 	position: inherit;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
 	margin-top: 165px;
 	font-family: 'open_sanscondensed_light';
 	width: 1110px;
@@ -321,9 +305,6 @@ span {
 
 .article_digits {
 	/*position: inherit;*/
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
 	font-family: 'OpenSans_Condensed-Medium';
 	font-weight: 700;
 	width: 255px;
@@ -350,7 +331,6 @@ span {
 
 /*НАШИ ПОСТАНОВКИ*/
 .performance {
-	position: absolute;
 	font-family: 'open_sanscondensed_light';
 	position: absolute;
 	width: 1770px;
@@ -362,12 +342,6 @@ span {
 .article_perform {
 	width: 398px;
 	height: 65px;
-	font-weight: 300;
-	font-size: 48px;
-	line-height: 65px;
-	text-align: center;
-	letter-spacing: 0.09em;
-	text-transform: uppercase;
 	margin: 0 761px 650px 611px;
 }
 .perform_wrapper {
@@ -375,9 +349,6 @@ span {
 	top: 165px;
 	width: 1769px;
 	height: 550px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
 	font-family: 'OpenSans_Condensed-Medium';
 	text-transform: uppercase;
 	/*background: aqua;*/
@@ -451,9 +422,6 @@ button.search:hover {
 }
 .stars {
 	position: inherit;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
 	width: 230px;
 	height: 24px;
 	margin: 171px 405px 355px 475px;
@@ -481,14 +449,6 @@ button.search:hover {
 	width: 1110px;
 	height: 912px;
 	margin: 3367px 405px 158px 405px;
-	font-family: 'open_sanscondensed_light';
-	font-weight: 300;
-	font-size: 48px;
-	line-height: 65px;
-	text-align: center;
-	letter-spacing: 0.09em;
-	text-transform: uppercase;
-	color: #FFFFFF;
 	background: grey;
 }
 .partners {
@@ -508,16 +468,10 @@ button.search:hover {
 	width: 1034px;
 	height: 272px;
 	margin: auto auto 0 auto;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
 	background: blue;
 }
 #partners_logo {
 	/*position: inherit;*/
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
 	width: 1034px;
 	height: 96px;
 	background: green;
@@ -532,38 +486,107 @@ button.search:hover {
 	height: 355px;
 	margin: auto auto 0 auto;
 	font-family: 'open_sanscondensed_light';
-	color: #FFFFFF;
-	text-transform: uppercase;
+	/*color: #FFFFFF;
+	text-transform: uppercase;*/
 	background: red;
 }
 .contacts_paragraph {
 	width: 381px;
 	height: 65px;
 	margin: 0 auto;
-	font-weight: 300;
-	font-size: 48px;
-	line-height: 65px;
-	text-align: center;
-	letter-spacing: 0.09em;
 	background: aquamarine;
 }
 .contacts_phone_email {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+	position: inherit;
+	width: 255px;
+	height: 143px;
+	margin: 165px auto 47px 0;
+	background: brown;
+}
+.contacts_phone_email div {
 	text-align: left;
+	text-transform: uppercase;
+	color: #FFFFFF;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 22px;
 	letter-spacing: 0.05em;
-	width: 255px;
-	height: 143px;
 }
 .contacts_form {
+	position: inherit;
 	width: 730px;
 	height: 190px;
+	margin: 165px 0 0 380px;
+	background: antiquewhite;
 }
-.div_input {
+.input_block {
 	width: 730px;
 	height: 100px;
+	background: blue;
+}
+.div_input {
+	width: 390px;
+	height: 100px;
+	flex-wrap: wrap;
+	background: green;
+}
+.div_input div {
+	width: 180px;
+	height: 35px;
+	background: darkcyan;
+}
+input {
+	position: inherit;
+	width: 180px;
+	height: 35px;
+	background: #444444;
+	border: 1px solid #616161;
+	box-sizing: border-box;
+}
+.textbox {
+	position: absolute;
+	width: 310px;
+	height: 100px;
+	margin: 0 0 0 auto;
+	background: darkorange;
+}
+textarea {
+	position: relative;
+	width: 310px;
+	height: 100px;
+	background: #444444;
+	border: 1px solid #616161;
+	box-sizing: border-box;
+	resize: none;
+}
+.div_ {
+	widows: 730px;
+	height: 50px;
+}
+.div_info_input {
+	position: absolute;
+	width: 390px;
+	height: 50px;
+	margin: auto auto 0 0;
+	font-family: 'OpenSans-Regular';
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 150%;
+	color: #989898;
+}
+.contacts_form button {
+	position: absolute;
+	font-family: 'open_sanscondensed_light';
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 25px;
+	/*align-items: center;
+	text-align: center;*/
+	color: #FFFFFF;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	background: #D1A954;
+	width: 190px;
+	height: 50px;
+	margin: auto 0 0 auto;
 }
