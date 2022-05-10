@@ -67,14 +67,21 @@ ul {
 li:not(:first-child) {
 	margin-left: 63px;
 }
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFFFDF;
+}
 .menu_tel {
-	vertical-align: center;
+	vertical-align: middle;
 	padding-left: 167px;
 	position: relative;
 	width: 119px;
 }
 .menu_tel p {
-	padding: 0 3px 0 3px;
+	text-align: center;
 	font-size: 16px;
 	line-height: 22px;
 	letter-spacing: 0.05em;
@@ -87,9 +94,9 @@ li:not(:first-child) {
 /*Sticky sidebar*/
 .sticky_sidebar {
 	width: 150px;
-	height: 1045px;
+	height: 100%;/*1045px;*/
 	background: rgba(51, 51, 51, 0.75);
-	position: absolute;
+	position: fixed;/*absolute;*/
 }
 .information {
 	position: absolute;
@@ -522,6 +529,10 @@ button.search:hover {
 .input_block {
 	width: 730px;
 	height: 100px;
+	font-family: 'OpenSans-Regular';
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 150%;
 	/*background: blue;*/
 }
 .div_input {
@@ -536,13 +547,25 @@ button.search:hover {
 	height: 35px;
 	/*background: darkcyan;*/
 }
-input {
+input, textarea {
 	position: inherit;
+	padding-left: 15px;
 	width: 180px;
 	height: 35px;
 	background: #444444;
 	border: 1px solid #616161;
 	box-sizing: border-box;
+}
+textarea {
+	padding-top: 7px;
+}
+input[placeholder], textarea[placeholder] {
+	align-items: center;
+	color: #989898;
+	font-family: 'OpenSans-Regular';
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 150%;
 }
 .textbox {
 	position: absolute;
@@ -593,4 +616,30 @@ textarea {
 }
 .contacts_form button:hover {
 	background: #D1A974;
+}
+
+/*FOOTER*/
+.footer_wrapper {
+	width: 1110px;
+	height: 48px;
+	margin: 80px auto 30px 405px;
+}
+.line {
+	border-bottom: 1px solid #565656;
+}
+.footer_p {
+	width: 1110px;
+	height: 18px;
+	font-family: 'OpenSans-Regular';
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 150%;
+	color: #989898;
+	margin-top: 30px;
+}
+.footer_p #rights {
+
+}
+.footer_p #dev {
+	
 }
