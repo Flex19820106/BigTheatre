@@ -2,15 +2,15 @@ body {
 	background-color: #333333;
 }
 .wrapper {
-	margin: 0 auto;
+	margin: auto;
 	/*max-width: 1920px;*/
 	/*min-width: 1920px;*/
 	width: 1920px;
-	height: 4437px;
+	height: 100%;
 }
 .head_wrapper {
 	display: block;
-	position: absolute;
+	position: relative;
 	width: 1920px;
 	height: 1045px;
 	background-image: url(../img/background_header.png);
@@ -103,7 +103,7 @@ a:hover {
 	align-items: center;
 	width: 25px;
 	height: 576px;
-	margin: 383px 60px 86px 62px;
+	margin: 100% 60px 86px 62px;
 }
 .text_inform {
 	position: relative;
@@ -207,7 +207,7 @@ a:hover {
 	width: 370px;
 	height: 570px;
   /*background-color: green;*/
-	position: inherit;
+	position: absolute;
 	/*top: 0;*/
 	margin: 267px 480px 208px 1070px;
 }
@@ -258,12 +258,15 @@ a:hover {
 }
 
 /*ARTICLE*/
+.article_wrapper {
+	position: relative;
+}
 .about_theatre {
 	position: absolute;
-	display: block;
+	/*display: block;*/
 	width: 1110px;
 	height: 457px;
-	margin: 1195px 405px 2785px 405px;
+	margin: 150px 405px auto 405px;
 	/*background: grey;*/
 }
 .article_title {
@@ -342,7 +345,7 @@ span {
 	position: absolute;
 	width: 1770px;
 	height: 715px;
-	margin: 1802px 0 1920px 150px;
+	margin: 757px 0 auto 150px;
 	color: #FFFFFF;
 	/*background: grey;*/
 }
@@ -406,11 +409,9 @@ button.search:hover {
 /*БЛОК ДАТ*/
 .dates_block {
 	position: absolute;
-	/*right: 0;
-	left: 0;*/
 	width: 1110px;
 	height: 550px;
-	margin: 2667px 405px 1220px 405px;
+	margin: 1622px 405px auto 405px;
 	color: #D1A954;
 	background-image: url(../img/theatersmall.png);
 }
@@ -452,10 +453,10 @@ button.search:hover {
 
 /*ПОСЛЕДНИЙ АРТИКЛ*/
 .last_article_wrapper {
-	position: relative;
+	position: absolute;
 	width: 1110px;
 	height: 912px;
-	margin: 3367px 405px 158px 405px;
+	margin: 2322px 405px auto 405px;
 	/*background: grey;*/
 }
 .partners {
@@ -620,6 +621,7 @@ textarea {
 
 /*FOOTER*/
 .footer_wrapper {
+	position: relative;
 	width: 1110px;
 	height: 48px;
 	margin: 80px auto 30px 405px;
