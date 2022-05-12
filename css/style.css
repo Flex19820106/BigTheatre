@@ -67,6 +67,9 @@ ul {
 li:not(:first-child) {
 	margin-left: 63px;
 }
+li:hover {
+	margin: 0 5px 5px 0;
+}
 a {
 	color: #FFFFFF;
 	text-decoration: none;
@@ -260,13 +263,16 @@ a:hover {
 /*ARTICLE*/
 .article_wrapper {
 	position: relative;
+	margin-top: 150px;
+	width: 1920px;
+	height: 3084px;
 }
 .about_theatre {
 	position: absolute;
 	/*display: block;*/
 	width: 1110px;
 	height: 457px;
-	margin: 150px 405px auto 405px;
+	margin: 0 405px auto 405px;
 	/*background: grey;*/
 }
 .article_title {
@@ -345,7 +351,7 @@ span {
 	position: absolute;
 	width: 1770px;
 	height: 715px;
-	margin: 757px 0 auto 150px;
+	margin: 542px 0 auto 150px;
 	color: #FFFFFF;
 	/*background: grey;*/
 }
@@ -411,7 +417,7 @@ button.search:hover {
 	position: absolute;
 	width: 1110px;
 	height: 550px;
-	margin: 1622px 405px auto 405px;
+	margin: 1407px 405px auto 405px;
 	color: #D1A954;
 	background-image: url(../img/theatersmall.png);
 }
@@ -456,7 +462,7 @@ button.search:hover {
 	position: absolute;
 	width: 1110px;
 	height: 912px;
-	margin: 2322px 405px auto 405px;
+	margin: 2107px 405px auto 405px;
 	/*background: grey;*/
 }
 .partners {
