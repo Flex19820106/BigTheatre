@@ -1,6 +1,9 @@
 body {
 	background-color: #333333;
 }
+html {
+  scroll-behavior: smooth;
+}
 .wrapper {
 	margin: auto;
 	/*max-width: 1920px;*/
@@ -44,11 +47,12 @@ body {
 	text-transform: uppercase;
 	font-weight: 700;
 	align-items: center;
-	position: relative;
+	position: fixed;
 	top: 50px;
 	margin: 0 auto;
 	width: 1110px;
 	height: 27px;
+	z-index: 3;
 	/*background-color: black;*/
 }
 .menu {
@@ -68,7 +72,8 @@ li:not(:first-child) {
 	margin-left: 63px;
 }
 li:hover {
-	margin: 0 5px 5px 0;
+	transition: 0.15s;
+	transform: scale(1.2) translate(-5px, -5px);
 }
 a {
 	color: #FFFFFF;
@@ -160,7 +165,7 @@ a:hover {
 
 /*BOARD1*/
 .board1 {
-	position: inherit;
+	position: absolute;
 	width: 540px;
 	height: 296px;
 	/*background-color: yellow;*/
