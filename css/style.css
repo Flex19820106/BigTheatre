@@ -66,6 +66,7 @@ ul {
 	letter-spacing: 0.1em;
 	display: inline-flex;
 	list-style: none;
+	transition: 0.15s;
 	/*background-color: pink;*/
 }
 li:not(:first-child) {
@@ -247,6 +248,13 @@ a:hover {
 	position: inherit;
 	/*background: black;*/
 }
+.btn {
+	border: 3px solid green;
+	z-index: 2;
+}
+.btn:hover {
+	border: 5px solid blue;
+}
 .left img {
 	width: 41px;
 	height: 16px;
@@ -255,6 +263,7 @@ a:hover {
 	width: 108px;
 	height: 25px;
 	position: inherit;
+	z-index: 2;
 	/*background: pink;*/
 }
 .right img {;
