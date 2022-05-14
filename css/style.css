@@ -221,19 +221,74 @@ a:hover {
 	margin: 267px 480px 208px 1070px;
 }
 .poster1 {
+	width: 350px;
+	height: 490px;
 	position: inherit;
 	z-index: 1;
 }
 .poster2 {
+	width: 350px;
+	height: 490px;
 	position: inherit;
 	top: 20px;
 	left: 20px;
 }
-
+@keyframes courusel {
+	from {
+		transform: translateX(150px);
+	}
+	to {
+		transform: translateX(150px);
+	}
+	/*25% {transform: translate(400px, -400px);}
+	50% {transform: translate(100px, -800px);}
+	75% {transform: translate(-400px, -400px);}
+	100% {transform: translate(-20px, -20px);*//*(0px, -100px);*//*}*/
+	/*5% {margin-top: 20px; margin-right: 20px; z-index: 2;}
+	10% {margin-top: 10px; margin-right: 20px;}
+	15% {margin-top: 10px; margin-right: 20px;}
+	20% {margin-top: 20px; margin-right: 20px;}
+	25% {margin-top: 20px}
+	30% {margin-top: 20px; margin-left: 10px;}
+	35% {margin-top: 20px; margin-left: 10px;}
+	40% {margin-top: 20px; margin-left: 10px;}
+	45% {margin-top: 20px; margin-left: 10px;}
+	50% {margin-left: 20px;}
+	55% {margin-bottom: 10px; margin-left: 20px;}
+	60% {margin-bottom: 10px; margin-left: 20px;}
+	65% {margin-bottom: 10px; margin-left: 20px;}
+	70% {margin-bottom: 10px; margin-left: 20px;}
+	75% {margin-bottom: 20px; margin-left: 10px;}
+	80% {margin-bottom: 20px; margin-left: 10px;}
+	85% {margin-bottom: 20px; margin-right: 10px;}
+	90% {margin-bottom: 20px; margin-right: 10px;}
+	95% {margin-bottom: 20px; margin-right: 20px; z-index: 2;}
+	100% {margin-right: 20px;}*/
+}
+.animation_post1 {
+	/*transition: 1s;
+	translate: ;*/
+}
+.animation_post2 {
+	animation-name: courusel;
+	animation-duration: 20s;
+	
+	/*transition: 1s;
+	translate: ;*/
+}
 .arrow_conteiner {
 	top: 545px;
 	height: 25px;
 	position: relative;
+}
+.left, .right, .btn {
+	width: 108px;
+	height: 25px;
+	position: inherit;
+	align-items: center;
+	/*background: black;*/
+}
+.btn {
 	font-family: 'OpenSans_Condensed-Medium';
 	font-weight: 700;
 	font-size: 18px;
@@ -242,36 +297,12 @@ a:hover {
 	color: #C4C4C4;
 	text-transform: uppercase;
 }
-.left {
-	width: 108px;
-	height: 25px;
-	position: inherit;
-	/*background: black;*/
-}
-.btn {
-	border: 3px solid green;
-	z-index: 2;
-}
 .btn:hover {
-	border: 5px solid blue;
-}
-.left img {
-	width: 41px;
-	height: 16px;
-}
-.right {
-	width: 108px;
-	height: 25px;
-	position: inherit;
-	z-index: 2;
-	/*background: pink;*/
-}
-.right img {;
-	width: 41px;
-	height: 16px;
-}
-.right p {
 	color: #FFFFFF;
+}
+.left img, .right img {
+	width: 41px;
+	height: 16px;
 }
 
 /*ARTICLE*/
