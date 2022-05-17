@@ -2,10 +2,12 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width">
+	<!-- , initial-scale=1.0"> -->
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/fonts_css.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
 	<title>Большой театр</title>
 </head>
 <body>
@@ -14,7 +16,7 @@
 			<div class="head_wrapper"> <a name="main"></a>
 				<div class="menu_wrapper flex_row_space-between">
 					<div class="menu">
-						<ul>
+						<ul class="flex_row_space-between">
 							<li><a href="#main">Главная</a></li>
 							<li><a href="#about">О театре</a></li>
 							<li><a href="#perf">Наши постановки</a></li>
@@ -48,16 +50,16 @@
 				</div>
 				<div class="board2">
 					<div class="poster1"><img src="img/header1_image.png" alt=""></div>
-					<div class="poster2 animation_post2"><img src="img/header2_image.png" alt=""></div>
+					<div class="poster2"><img src="img/header2_image.png" alt=""></div>
 					<div class="arrow_conteiner flex_row_space-between">
 						<div class="left">
-							<button class="btn flex_row_space-between">
+							<button id="btn1" class="btn flex_row_space-between">
 								<img src="img/left_arrow.png" alt="">
 								<p>пред</p>
 							</button>
 						</div>
 						<div class="right">
-							<button class="btn flex_row_space-between">
+							<button id="btn2" class="btn flex_row_space-between">
 								<p>след</p>
 								<img src="img/rigt_arrow.png" alt="">
 							</button>
@@ -88,21 +90,21 @@
 				<div class="performance">
 					<div class="article_perform paragraph_title"><a id="perf"><span>наши</span> постановки</a></div>
 					<div class="perform_wrapper flex_row_space-between">
-						<div id="perform_block">
+						<div id="perform_block1">
 							<img src="img/oscar.png" alt="">
 							<div id="name"><p>оскар 2020</p></div>
 							<div id="date"><p>сентябрь 2020</p></div>
 						</div>
-						<div id="perform_block">
+						<div id="perform_block2">
 							<img src="img/no_name.png" alt="">
 							<button class="search"></button>
 						</div>
-						<div id="perform_block">
+						<div id="perform_block3">
 							<img src="img/gramofon.png" alt="">
 							<div id="name"><p>золотой грамофон</p></div>
 							<div id="date"><p>июль 2020</p></div>
 						</div>
-						<div id="perform_block">
+						<div id="perform_block4">
 							<img src="img/shelkunchik.png" alt="">
 							<div id="name"><p>щелкунчик</p></div>
 							<div id="date"><p>май 2020</p></div>
@@ -131,13 +133,13 @@
 					<div class="partners">
 						<div id="partners_paragraph" class="paragraph_title"><a id="partners"><span>партнеры</span> театра</a></div>
 						<div class="partners_complete_logo flex_column_space-between">
-							<div id="partners_logo" class="flex_row_space-between">
+							<div id="partners_logo1" class="flex_row_space-between">
 								<div id="logo"><img src="img/privatbank.png" alt=""></div>
 								<div id="logo"><img src="img/privatbank.png" alt=""></div>
 								<div id="logo"><img src="img/privatbank.png" alt=""></div>
 								<div id="logo"><img src="img/privatbank.png" alt=""></div>
 							</div>
-							<div id="partners_logo" class="flex_row_space-between">
+							<div id="partners_logo2" class="flex_row_space-between">
 								<div id="logo"><img src="img/privatbank.png" alt=""></div>
 								<div id="logo"><img src="img/privatbank.png" alt=""></div>
 								<div id="logo"><img src="img/privatbank.png" alt=""></div>
