@@ -8,9 +8,13 @@
 	/*MENU*/
 	.head_wrapper {
 		width: 992px;
-		background-size: contain;
+		/*background-size: contain;*/
 	}
 	.menu_wrapper {
+		width: 692px;
+		height: 102px;
+		align-content: space-between;
+		flex-direction: column;
 		flex-wrap: wrap;
 		margin-left: 191px;
 	}
@@ -28,6 +32,7 @@
 	/*About theatre*/
 	.article_wrapper {
 		width: 992px;
+		height: 3223px;
 	}
 	.about_theatre {
 		width: 691px;
@@ -81,7 +86,7 @@
 	/*last article*/
 	.last_article_wrapper, #partners_paragraph,
 	.partners, .partners_complete_logo, #partners_logo1,
-	#partners_logo2 {
+	#partners_logo2, .footer_p {
 		width: 690px;
 	}
 	.last_article_wrapper {
@@ -100,8 +105,45 @@
 	}
 	.contacts_form {
 		width: 690px;
+		margin-left: 0;
 	}
 	.textbox {
 		width: 270px;
+	}
+	.contacts_phone_email {
+		width: 690px;
+		height: 59px;
+		margin-top: 435px;
+		flex-wrap: wrap;
+		align-content: space-between;
+	}
+	#mail p {
+		text-align: right;
+	}
+
+	/*FOOTER*/
+	.footer_wrapper {
+		width: 690px;
+		margin-left: 191px;
+	}
+}
+
+@media (max-width: 768px) {
+	/*MENU*/
+	.head_wrapper {
+		width: 768px;
+		height: 800px;	
+	}
+	.menu_wrapper {
+		margin-left: auto;
+		margin-right: 39px;
+		width: 119px;
+		height: 27px;
+	}
+	.menu {
+		display: none;
+	}
+	.sticky_sidebar {
+		display: none;
 	}
 }

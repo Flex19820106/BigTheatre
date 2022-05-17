@@ -18,6 +18,7 @@ html {
 	width: 1920px;
 	height: 1045px;
 	background-image: url(../img/background_header.png);
+	background-size: contain;
 }
 /*TOTAL STYLES*/
 .paragraph_title {
