@@ -8,6 +8,7 @@
 	/*MENU*/
 	.head_wrapper {
 		width: 992px;
+		background-image: url(../img/background_header992px.png);
 		/*background-size: contain;*/
 	}
 	.menu_wrapper {
@@ -75,7 +76,7 @@
 	/*Dates block*/
 	.dates_block {
 		width: 992px;
-		background-size: contain;
+		background-image: url(../img/theatersmall992px.png);
 		margin-left: 0;
 	}
 	.stars {
@@ -189,7 +190,7 @@
 	.perform_wrapper {
 		top: auto;
 	}
-	.dates_block {
+	.	 {
 		margin-top: 1272px;
 		width: 768px;
 	}
@@ -289,12 +290,46 @@
 	.article_digits {
 		width: 510px;
 		height: 165px;
+		flex-direction: row;
 		flex-wrap: wrap;
 	}
 	#dig {
 		text-align: center;
 		width: 510px;
 		height: 23px;
+	}
+	.article_digits {
+		justify-content: space-around;
+		align-content: space-between;
+		/*display: block;*/
+	}
+	#pic1, #pic2 {
+		width: 70px;
+		height: 70px;
+		margin-top: 40px;
+	}
+	#pic1 {
+		flex-basis: 35%;
+		order: 1;
+		margin-left: 86px;	
+	}
+	#text1 {
+		flex-basis: 35%;
+		order: 3;
+		margin-left: 82px;
+	}
+	#pic2 {
+		flex-basis: 35%;
+		order: 2;
+		/*margin-right: 132px;*/
+	}
+	#text2 {
+		flex-basis: 35%;
+		order: 4;
+	}
+	.text {
+		width: 185px;
+		height: 17px;
 	}
 	.performance {
 		margin-top: 670px;
