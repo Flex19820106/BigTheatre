@@ -78,9 +78,13 @@
 		background-size: contain;
 		margin-left: 0;
 	}
+	.stars {
+		margin: 171px auto 355px 431px;
+	}
 	.dates_block_paragraph {
 		font-size: 34px;
 		line-height: 51px;
+		margin: 220px 111px 189px 431px;
 	}
 
 	/*last article*/
@@ -107,7 +111,7 @@
 		width: 690px;
 		margin-left: 0;
 	}
-	.textbox {
+	.textbox, textarea {
 		width: 270px;
 	}
 	.contacts_phone_email {
@@ -129,7 +133,11 @@
 }
 
 @media (max-width: 768px) {
-	/*MENU*/
+	/*Header*/
+	.wrapper {
+		width: 768px;
+		height: 100%;
+	}
 	.head_wrapper {
 		width: 768px;
 		height: 800px;	
@@ -145,5 +153,150 @@
 	}
 	.sticky_sidebar {
 		display: none;
+	}
+	.board1 {
+		margin-top: 252px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.article_wrapper {
+		margin-top: 90px;
+		width: 768px;
+		height: 2834px;
+	}
+	.about_theatre {
+		width: 690px;
+		height: 417px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.article_title {
+		margin: 0 auto;
+		width: 690px;
+	}
+	.article_main_info {
+		margin-top: auto;
+	}
+
+	/*НАШИ ПОСТАНОВКИ*/
+	.performance {
+		width: 690px;
+		height: 675px;
+		margin-top: 507px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.perform_wrapper {
+		top: auto;
+	}
+	.dates_block {
+		margin-top: 1272px;
+		width: 768px;
+	}
+	.years {
+		margin: 126px 487px 126px 99px;
+	}
+	.stars {
+		margin: 190px auto 336px 281px;
+	}
+	.dates_block_paragraph {
+		font-size: 29px;
+		margin: 239px 99px 190px 281px;
+	}
+	.last_article_wrapper {
+		width: 690px;
+		height: 922px;
+		margin: 1912px auto auto auto;
+	}
+	.partners {
+		width: 690px;
+		height: 398px;
+	}
+	.partners_complete_logo {
+		width: 686px;
+		height: 273px;
+	}
+	.contacts {
+		width: 690px;
+		height: 434px;
+	}
+	.contacts_form {
+		width: 690px;
+		height: 190px;
+		margin: auto;
+	}
+	.textbox, textarea {
+		width: 270px;
+	}
+	.contacts_phone_email {
+		width: 690px;
+		margin-top: auto;
+		margin-bottom: 0;
+	}
+	.footer_wrapper {
+		width: 690px;
+		margin: 60px auto 30px auto;
+	}
+}
+
+@media (max-width: 576px) {
+	.wrapper {
+		width: 576px;
+		height: 100%;
+	}
+	.head_wrapper {
+		width: 576px;
+		height: 600px;
+	}
+	.board1 {
+		width: 510px;
+		margin: 197px 33px auto 33px;
+	}
+	.article_wrapper {
+		margin-top: 80px;
+		width: 576px;
+		height: 3159px;
+	}
+
+	/*ABOUT THEATRE*/
+	.about_theatre {
+		width: 510px;
+		height: 590px;
+	}
+	.article_title {
+		width: 510px;
+	}
+	.article_main_info {
+		width: 510px;
+		height: 465px;
+		/*margin: auto;*/
+		flex-direction: column;
+		/*justify-content: space-between;*/
+	}
+	.article_info {
+		text-align: center;
+		width: 505px;
+		height: 273px;
+	}
+	.info1 {
+		width: 505px;
+		height: 23px;
+	}
+	.info2 {
+		width: 504px;
+		height: 210px;
+	}
+	.article_digits {
+		width: 510px;
+		height: 165px;
+		flex-wrap: wrap;
+	}
+	#dig {
+		text-align: center;
+		width: 510px;
+		height: 23px;
+	}
+	.performance {
+		margin-top: 670px;
 	}
 }

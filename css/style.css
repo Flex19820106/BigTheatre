@@ -13,7 +13,7 @@ html {
 	height: 100%;
 }
 .head_wrapper {
-	display: block;
+	/*display: block;*/
 	position: relative;
 	width: 1920px;
 	height: 1045px;
@@ -403,6 +403,7 @@ span {
 }
 .article_main_info {
 	position: inherit;
+	/*margin-top: auto;*/
 	margin-top: 165px;
 	font-family: 'open_sanscondensed_light';
 	width: 1110px;
