@@ -17,7 +17,7 @@
 		align-content: space-between;
 		flex-direction: column;
 		flex-wrap: wrap;
-		margin-left: 191px;
+		margin-left: auto;
 	}
 	.menu {
 		width: 692px;
@@ -190,7 +190,7 @@
 	.perform_wrapper {
 		top: auto;
 	}
-	.	 {
+	.dates_block {
 		margin-top: 1272px;
 		width: 768px;
 	}
@@ -240,6 +240,7 @@
 	}
 }
 
+/*576px*/
 @media (max-width: 576px) {
 	.wrapper {
 		width: 576px;
@@ -299,7 +300,7 @@
 		height: 23px;
 	}
 	.article_digits {
-		justify-content: space-around;
+		/*justify-content: space-around;*/
 		align-content: space-between;
 		/*display: block;*/
 	}
@@ -333,5 +334,90 @@
 	}
 	.performance {
 		margin-top: 670px;
+		width: 510px;
+		height: 675px;
+	}
+	.article_perform, .perform_wrapper {
+		width: 510px;
+	}
+	.dates_block {
+		margin-top: 1425px;
+		width: 576px;
+	}
+	.years {
+		width: 156px;
+		margin-left: 33px;
+	}
+	.stars, .dates_block_paragraph {
+		margin-left: 213px;
+	}
+	.dates_block_paragraph {
+		font-size: 25px;
+	}
+
+	/*LAST ARTICLE*/
+	.last_article_wrapper {
+		margin-top: 2055px;
+		width: 510px;
+		height: 1112px;
+	}
+	.partners {
+		width: 510px;
+
+	}
+	#partners_paragraph {
+		width: 510px;
+	}
+	.partners_complete_logo {
+		width: 510px;
+	}
+	/*div #logo:last-child {
+		display: block;
+	}*/
+	#logo_none {
+		display: none;
+	}
+	#partners_logo1, #partners_logo2 {
+		width: 510px;
+	}
+	.contacts {
+		width: 510px;
+		height: 634px;
+	}
+	.contacts_form {
+		width: 509px;
+		height: 400px;
+	}
+	.input_block {
+		width: 509px;
+		height: 230px;
+	}
+	.div_input {
+		width: 509px;
+		height: 100px;
+		flex-wrap: wrap;
+	}
+	.div_input div, input {
+		width: 230px;
+	}
+	.textbox, textarea {
+		width: 509px;
+	}
+	.textbox {
+		margin-top: 130px;
+	}
+	.div_ button {
+		margin: 270px auto auto auto;
+	}
+	.div_info_input {
+		width: 435px;
+		margin: 350px auto auto auto;
+		text-align: center;
+	}
+	.contacts_phone_email {
+		width: 509px;
+	}
+	.footer_wrapper, .footer_p {
+		width: 504px;
 	}
 }
