@@ -144,10 +144,15 @@
 		height: 800px;	
 	}
 	.menu_wrapper {
-		margin-left: auto;
+		margin-left: 39px;
 		margin-right: 39px;
-		width: 119px;
+		width: auto;
 		height: 27px;
+	}
+	.menu-btn {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
 	}
 	.menu {
 		display: none;

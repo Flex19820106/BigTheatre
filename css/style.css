@@ -58,19 +58,21 @@ html {
 	/*background-color: black;*/
 }
 .menu-btn {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: left;
 	align-content: center;
 	width: 27px;
 	height: 27px;
-	/*display: none;*/
+	/*overflow: hidden;*/
+	display: none;
+	z-index: 3;
 }
 .menu-btn span {
+	display: block;
 	width: 20px;
-	height: 20px;
-	border-bottom: 2px solid white;
+	height: 2px;
+	background-color: white;
+	/*transform: translate(50%,50%);
+	transition: 5s;*/
+	/*border: 2px solid white;*/
 	/*border-radius: 20%;*/
 }
 .menu-btn span:nth-of-type(1){
@@ -100,6 +102,9 @@ ul {
 /*li:not(:first-child) {
 	margin-left: 63px;
 }*/
+.menu_soc_icons {
+	display: none;
+}
 li:hover {
 	transition: 0.15s;
 	transform: scale(1.2) translate(-5px, -5px);
