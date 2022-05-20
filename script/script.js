@@ -45,3 +45,6 @@ menuBtn.addEventListener('click', function () {
 	menuBtn.classList.toggle('active');
 	menu.classList.toggle('active');
 });
+
+let menuUl = document.querySelector('ul');
+console.log(menuUl);

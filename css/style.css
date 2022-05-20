@@ -64,6 +64,7 @@ html {
 	overflow: hidden;
 	display: none;
 	z-index: 3;
+	transition: all 20s;
 }
 .menu-btn span {
 	display: block;
@@ -71,7 +72,7 @@ html {
 	height: 4px;
 	background-color: white;
 	/*transform: translate(-50%,-50%);*/
-	/*transition: 5s;*/
+	/*transition: all 5s;*/
 	/*border: 2px solid white;*/
 	/*border-radius: 20%;*/
 }
@@ -109,7 +110,7 @@ ul {
 }
 li:hover {
 	transition: 0.15s;
-	transform: scale(1.2) translate(-5px, -5px);
+	transform: scale(1.05) translate(-2px, -2px);
 }
 a {
 	color: #FFFFFF;
