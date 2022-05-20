@@ -61,17 +61,17 @@ html {
 	align-content: center;
 	width: 27px;
 	height: 27px;
-	/*overflow: hidden;*/
+	overflow: hidden;
 	display: none;
 	z-index: 3;
 }
 .menu-btn span {
 	display: block;
-	width: 20px;
-	height: 2px;
+	position: relative;
+	height: 4px;
 	background-color: white;
-	/*transform: translate(50%,50%);
-	transition: 5s;*/
+	/*transform: translate(-50%,-50%);*/
+	/*transition: 5s;*/
 	/*border: 2px solid white;*/
 	/*border-radius: 20%;*/
 }
@@ -80,9 +80,11 @@ html {
 }
 .menu-btn span:nth-of-type(2){
 	width: 75%;
+	margin-top: calc(50% - 7px); /*- 10px);*/
 }
 .menu-btn span:nth-of-type(3){
 	width: 50%;
+	margin-top: calc(50% - 7px); /*+ 10px);*/
 }
 .menu {
 	width: 824px;

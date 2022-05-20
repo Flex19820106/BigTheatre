@@ -34,6 +34,14 @@ for (let i = 0; i < a.length; i++) {
 				reverse_pictures();
 				document.querySelector('#btn2').removeAttribute('disabled');
 			}, 500);
-        }
-    })
+		}
+	});
 };
+
+let menuBtn = document.querySelector('.menu-btn');
+let menu = document.querySelector('.menu');
+
+menuBtn.addEventListener('click', function () {
+	menuBtn.classList.toggle('active');
+	menu.classList.toggle('active');
+});
