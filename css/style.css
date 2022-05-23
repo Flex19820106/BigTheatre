@@ -51,7 +51,7 @@ html {
 	align-items: center;
 	position: fixed;
 	top: 50px;
-	margin: 0 auto auto 191px;
+	margin: 0 auto auto auto;
 	width: 1110px;
 	height: 27px;
 	z-index: 3;
