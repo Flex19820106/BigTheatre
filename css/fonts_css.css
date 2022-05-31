@@ -1,18 +1,50 @@
+/*self fonts*/
 @font-face {
-    font-family: 'open_sanscondensed_light';
-    src: url(fonts/OpenSans-CondLight.ttf);
-    /*font-weight: normal;
-    font-style: normal;*/
-}
-@font-face {
-    font-family: 'OpenSans-CondBold';
-    src: url(fonts/OpenSans-CondBold.ttf);
-}
-@font-face {
-    font-family: 'OpenSans_Condensed-Medium';
-    src: url(fonts/OpenSans_Condensed-Medium.ttf);
-}
-@font-face {
-    font-family: 'OpenSans-Regular';
+    font-family: 'Open Sans';
     src: url(fonts/OpenSans-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url(fonts/OpenSans-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url(fonts/OpenSans-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url(fonts/OpenSans-Italic.ttf);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url(fonts/OpenSans_Condensed-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url(fonts/OpenSans_Condensed-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url(fonts/OpenSans_Condensed-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url(fonts/OpenSans_Condensed-Italic.ttf);
+    font-weight: normal;
+    font-style: italic;
 }

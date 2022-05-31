@@ -1,0 +1,177 @@
+@media (max-width: 768px) {
+	/*Header*/
+	.wrapper {
+		width: 768px;
+		height: 100%;
+	}
+	.head_wrapper {
+		width: 768px;
+		height: 800px;	
+	}
+	.menu_wrapper {
+		margin-left: 39px;
+		margin-right: 39px;
+		width: auto;
+		height: 27px;
+	}
+	.menu-btn {
+		display: block;
+		transition: transform 1s ease-in-out;
+	}
+	.menu-btn span {
+		transition: transform 0.5s ease-in-out;	
+	}
+	.menu-btn.active {
+		transform:  translateX(180px);
+	}
+	.menu-btn.active span {
+		transition: transform 0.5s ease-in-out;	
+	}
+	.menu-btn.active span:nth-of-type(1) {
+		margin-top: 0;
+		transform: translate(0, 10px) rotate(45deg);
+		width: 100%;
+	}
+	.menu-btn.active span:nth-of-type(2) {
+		display: none;
+	}
+	.menu-btn.active span:nth-of-type(3) {
+		margin-top: calc(100% - 11px);
+		transform: translate(0, -10px) rotate(-45deg);
+		width: 100%;
+	}
+	.menu {
+		/*display: none;*/
+		position: fixed;
+		width: 300px;
+		height: 800px;
+		background-color: rgba(51, 51, 51, 0.95);
+		margin-left: -300px;
+		/*transform: translateX(-300px);*/
+		transition: transform 1s ease-in-out;
+	}
+	.menu.active {
+		transform: translateX(300px);
+		transition: transform 1s ease-in-out;
+	}
+	.menu ul {
+		width: 214px;
+		height: 305px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		font-size: 24px;
+		line-height: 33px;
+		letter-spacing: 0.05em;
+		margin: 140px auto auto 39px;
+	}
+	.menu ul li a:active {
+		color: #ffff00;
+	}
+	.menu_soc_icons {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: space-between;
+		align-content: space-between;
+		width: 140px;
+		height: 126px;
+		margin: 89px auto auto auto;
+	}
+	.menu_soc_icons a {
+		flex-basis: 50%;
+	}
+	#fb, #inst, #ytube, #vk {
+		width: auto;
+		height: auto;
+	}
+	.menu_soc_icons a:nth-of-type(2), .menu_soc_icons a:nth-of-type(4) {
+		text-align: right;
+	}
+	.sticky_sidebar {
+		display: none;
+	}
+	.board1 {
+		margin-top: 252px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.article_wrapper {
+		margin-top: 90px;
+		width: 768px;
+		height: 2834px;
+	}
+	.about_theatre {
+		width: 690px;
+		height: 417px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.article_title {
+		margin: 0 auto;
+		width: 690px;
+	}
+	.article_main_info {
+		margin-top: auto;
+	}
+
+	/*НАШИ ПОСТАНОВКИ*/
+	.performance {
+		width: 690px;
+		height: 675px;
+		margin-top: 507px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.perform_wrapper {
+		top: auto;
+	}
+	.dates_block {
+		margin-top: 1272px;
+		width: 768px;
+	}
+	.years {
+		margin: 126px 487px 126px 99px;
+	}
+	.stars {
+		margin: 190px auto 336px 281px;
+	}
+	.dates_block_paragraph {
+		font-size: 29px;
+		margin: 239px 99px 190px 281px;
+	}
+	.last_article_wrapper {
+		width: 690px;
+		height: 922px;
+		margin: 1912px auto auto auto;
+	}
+	.partners {
+		width: 690px;
+		height: 398px;
+	}
+	.partners_complete_logo {
+		width: 686px;
+		height: 273px;
+	}
+	.contacts {
+		width: 690px;
+		height: 434px;
+	}
+	.contacts_form {
+		width: 690px;
+		height: 190px;
+		margin: auto;
+	}
+	.textbox, textarea {
+		width: 270px;
+	}
+	.contacts_phone_email {
+		width: 690px;
+		margin-top: auto;
+		margin-bottom: 0;
+	}
+	.footer_wrapper {
+		width: 690px;
+		margin: 60px auto 30px auto;
+	}
+}

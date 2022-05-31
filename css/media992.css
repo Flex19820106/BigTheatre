@@ -1,0 +1,134 @@
+@media (max-width: 992px) {
+	.wrapper {
+		margin: auto;
+		max-width: 992px;
+		height: 100%;
+	}
+
+	/*MENU*/
+	.head_wrapper {
+		width: 992px;
+		background-image: url(../img/background_header992px.png);
+		/*background-size: contain;*/
+	}
+	.menu_wrapper {
+		width: 692px;
+		height: 102px;
+		align-content: space-between;
+		flex-direction: column;
+		flex-wrap: wrap;
+		margin-left: auto;
+	}
+	.menu {
+		width: 692px;
+		height: 25px;
+	}
+	.board1 {
+		margin-left: 191px;
+	}
+	.board2 {
+		display: none;
+	}
+
+	/*About theatre*/
+	.article_wrapper {
+		width: 992px;
+		height: 3223px;
+	}
+	.about_theatre {
+		width: 691px;
+		margin-left: 190px;
+	}
+	.article_title {
+		width: 691px;
+		height: 65px;
+		margin: 0 auto;
+	}
+	.article_main_info {
+		width: 691px;
+	}
+	.article_digits {
+		width: 208px;
+	}
+	.article_pic {
+		display: none;
+	}
+
+	/*Performance*/
+	.performance {
+		width: 690px;
+		margin-left: 191px;
+	}
+	.article_perform {
+		width: 690px;
+		margin: 0 auto;
+	}
+	.perform_wrapper {
+		width: 690px;
+	}
+	#perform_block1, #perform_block3, #perform_block4 {
+		display: none;
+	}
+	#perform_block2 {
+		margin: 0 auto;
+	}
+
+	/*Dates block*/
+	.dates_block {
+		width: 992px;
+		background-image: url(../img/theatersmall992px.png);
+		margin-left: 0;
+	}
+	.stars {
+		margin: 171px auto 355px 431px;
+	}
+	.dates_block_paragraph {
+		font-size: 34px;
+		line-height: 51px;
+		margin: 220px 111px 189px 431px;
+	}
+
+	/*last article*/
+	.last_article_wrapper, #partners_paragraph,
+	.partners, .partners_complete_logo, #partners_logo1,
+	#partners_logo2, .footer_p {
+		width: 690px;
+	}
+	.last_article_wrapper {
+		height: 1051px;
+		margin-left: 191px;
+	}
+	#partners_paragraph {
+		margin: 0 auto;
+	}
+	#partners_logo1 div:last-child, #partners_logo2 div:last-child {
+		display: none;
+	}
+	.contacts {
+		width: 690px;
+		height: 494px;
+	}
+	.contacts_form {
+		width: 690px;
+		margin-left: 0;
+	}
+	.textbox, textarea {
+		width: 270px;
+	}
+	.contacts_phone_email {
+		width: 690px;
+		height: 59px;
+		margin-top: 435px;
+		flex-wrap: wrap;
+		align-content: space-between;
+	}
+	#mail p {
+		text-align: right;
+	}
+
+	/*FOOTER*/
+	.footer_wrapper {
+		width: 690px;
+		margin-left: 191px;
+	}
+}

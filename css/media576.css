@@ -1,0 +1,208 @@
+@media (max-width: 576px) {
+	.wrapper {
+		width: 576px;
+		height: 100%;
+	}
+	.menu-btn {
+		z-index: 6;
+	}
+	.menu-btn.active {
+		transform: translateX(450px);
+	}
+	.menu {
+		width: 100%;
+		margin-left: 0;
+		margin-top: -800px;
+		z-index: 5;
+	}
+	.menu ul {
+		width: 350px;
+		height: 400px;
+		font-size: 40px;
+		text-align: center;
+		margin-left: auto;
+	}
+	.menu.active {
+		transform: translateY(800px);
+	}
+	.head_wrapper {
+		width: 576px;
+		height: 600px;
+	}
+	.board1 {
+		width: 510px;
+		margin: 197px 33px auto 33px;
+	}
+	.paragraph, .article {
+		width: 510px;
+	}
+	.paragraph {
+		letter-spacing: 0.07em;
+	}
+	.article_wrapper {
+		margin-top: 80px;
+		width: 576px;
+		height: 3159px;
+	}
+
+	/*ABOUT THEATRE*/
+	.about_theatre {
+		width: 510px;
+		height: 590px;
+	}
+	.article_title {
+		width: 510px;
+	}
+	.article_main_info {
+		width: 510px;
+		height: 465px;
+		/*margin: auto;*/
+		flex-direction: column;
+		/*justify-content: space-between;*/
+	}
+	.article_info {
+		text-align: center;
+		width: 505px;
+		height: 273px;
+	}
+	.info1 {
+		width: 505px;
+		height: 23px;
+	}
+	.info2 {
+		width: 504px;
+		height: 210px;
+	}
+	.article_digits {
+		width: 510px;
+		height: 165px;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	#dig {
+		text-align: center;
+		width: 510px;
+		height: 23px;
+	}
+	.article_digits {
+		/*justify-content: space-around;*/
+		align-content: space-between;
+		/*display: block;*/
+	}
+	#pic1, #pic2 {
+		width: 70px;
+		height: 70px;
+		margin-top: 40px;
+	}
+	#pic1 {
+		flex-basis: 35%;
+		order: 1;
+		margin-left: 86px;	
+	}
+	#text1 {
+		flex-basis: 35%;
+		order: 3;
+		margin-left: 82px;
+	}
+	#pic2 {
+		flex-basis: 35%;
+		order: 2;
+		/*margin-right: 132px;*/
+	}
+	#text2 {
+		flex-basis: 35%;
+		order: 4;
+	}
+	.text {
+		width: 185px;
+		height: 17px;
+	}
+	.performance {
+		margin-top: 670px;
+		width: 510px;
+		height: 675px;
+	}
+	.article_perform, .perform_wrapper {
+		width: 510px;
+	}
+	.dates_block {
+		margin-top: 1425px;
+		width: 576px;
+	}
+	.years {
+		width: 156px;
+		margin-left: 33px;
+	}
+	.stars, .dates_block_paragraph {
+		margin-left: 213px;
+	}
+	.dates_block_paragraph {
+		font-size: 25px;
+	}
+
+	/*LAST ARTICLE*/
+	.last_article_wrapper {
+		margin-top: 2055px;
+		width: 510px;
+		height: 1112px;
+	}
+	.partners {
+		width: 510px;
+
+	}
+	#partners_paragraph {
+		width: 510px;
+	}
+	.partners_complete_logo {
+		width: 510px;
+	}
+	/*div #logo:last-child {
+		display: block;
+	}*/
+	#logo_none {
+		display: none;
+	}
+	#partners_logo1, #partners_logo2 {
+		width: 510px;
+	}
+	.contacts {
+		width: 510px;
+		height: 634px;
+	}
+	.contacts_form {
+		width: 509px;
+		height: 400px;
+	}
+	.input_block {
+		width: 509px;
+		height: 230px;
+	}
+	.div_input {
+		width: 509px;
+		height: 100px;
+		flex-wrap: wrap;
+	}
+	.div_input div, input {
+		width: 230px;
+	}
+	.textbox, textarea {
+		width: 509px;
+	}
+	.textbox {
+		margin-top: 130px;
+	}
+	.div_ button {
+		margin: 270px auto auto auto;
+	}
+	.div_info_input {
+		width: 435px;
+		margin: 350px auto auto auto;
+		text-align: center;
+	}
+	.contacts_phone_email {
+		width: 509px;
+	}
+	.footer_wrapper, .footer_p {
+		width: 504px;
+	}
+}
